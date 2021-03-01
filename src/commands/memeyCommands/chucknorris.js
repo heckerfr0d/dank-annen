@@ -6,11 +6,11 @@ module.exports = new GenericCommand(
 
     await addCD();
     return {
-      title: '👊 Chuck Norris 👊',
-      description: data.body.value.joke.replace(/&quot;/g, '"')
+      title: '👊 Seyuj Annen 👊',
+      description: data.body.value.joke.replace(/&quot;/g, '"').replace("Chuck Norris", "Annen")
     };
   }, {
-    triggers: ['chucknorris', 'chuck', 'norris'],
+    triggers: ['annen', 'seyuj', 'seyujannen'],
     description: 'Let\'s learn about God',
     perms: ['embedLinks']
   }
